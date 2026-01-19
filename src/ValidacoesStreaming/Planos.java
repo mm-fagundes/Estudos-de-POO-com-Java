@@ -1,3 +1,5 @@
+package ValidacoesStreaming;
+
 public class Planos {
 
     int id;
