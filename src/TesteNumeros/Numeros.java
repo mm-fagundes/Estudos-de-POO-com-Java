@@ -68,4 +68,38 @@ public class Numeros {
             return;
         }
     }
+
+    public static void Tabuada() {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Insira um número: ");
+        double n1 = sc.nextDouble();
+        for (int i = 1; i < 11; i++) {
+            System.out.println(n1 * i);
+        }
+    }
+
+    public static void ParImpar(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite um número: ");
+        double n1 = sc.nextDouble();
+        if((n1 % 2) == 0){
+            System.out.println("Número par.");
+        } else{
+            System.out.println("Número impar.");
+        }
+
+    }
+
+    public static void Fatoracao(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite um número: ");
+        int n1 = sc.nextInt();
+        long resultado = 1;
+        for(int i = n1; i > 1; i--){
+            resultado *= i;
+            System.out.println(resultado);
+        }
+
+    }
 }
