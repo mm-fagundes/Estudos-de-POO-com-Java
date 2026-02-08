@@ -1,7 +1,4 @@
-package Curso4.Lista01.Ex01;
-
-import java.util.ArrayList;
-import java.util.Scanner;
+package Curso4.Practice1;
 
 public class Pessoa {
     private String nome;

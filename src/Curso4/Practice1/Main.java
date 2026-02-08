@@ -1,6 +1,5 @@
-package Curso4.Lista01.Ex01;
+package Curso4.Practice1;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
 
