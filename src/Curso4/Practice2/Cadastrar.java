@@ -37,6 +37,7 @@ public class Cadastrar{
                 System.out.print("O produto é perecivel? Use S ou N: ");
                 select = sc.nextLine().trim().toUpperCase();
                 LocalDate dataValidade = null;
+
                 if (select.equals("N")) {
                     Produto produto = new Produto(nome, preco, quantidade);
                     listaProdutos.add(produto);
@@ -53,10 +54,7 @@ public class Cadastrar{
                 ProdutoPerecivel produtoPerecivel = new ProdutoPerecivel(nome, preco, quantidade, dataValidade);
                 listaProdutos.add(produtoPerecivel);
                 break;
-
             }
-
-
 
             while (true){
                 System.out.println("Deseja adicionar mais um produto? Use S ou N: ");
@@ -72,15 +70,13 @@ public class Cadastrar{
                     System.out.println("Caráctere inválido, escolha apenas S ou N.");
                 }
             }
-
-
         }
     }
 
     public void exibirLista(){
 
         if(listaProdutos.isEmpty()){
-            System.out.println("Nenhum produto adicionado.");
+            System.out.println("Nenhum produto cadastrado.");
             return;
         }
 

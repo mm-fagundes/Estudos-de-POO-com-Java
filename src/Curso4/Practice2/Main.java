@@ -8,11 +8,12 @@ public class Main {
     static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         Cadastrar cadastrar = new Cadastrar();
+
 
         cadastrar.cadastrarProdutos(sc);
         cadastrar.exibirLista();
+
 
     }
 }

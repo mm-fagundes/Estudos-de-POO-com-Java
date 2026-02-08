@@ -1,0 +1,2 @@
+<h2>Prática em construtores, arrays e POO</h2>
+<h4><li>Nesse mini-projeto, pratiquei habilidades como uso de laços de repetição, criação e gerenciamento de arrays, além de aprender o que são e como funcionam construtores, praticando um pouco sobre eles também.</li></h4>
